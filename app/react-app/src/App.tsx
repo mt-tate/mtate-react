@@ -7,7 +7,7 @@ import { Notfound } from "./routes/Notfound"
 
 function App () {
     return (
-      <div className="App">
+      <div>
       <Routes> {/*Routesで囲む*/}
         <Route path="/" element={ <LoginForm /> } />
         <Route path="/Home" element={ <Home id={100}/> } />
